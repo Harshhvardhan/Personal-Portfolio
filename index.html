@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> HarsH </title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <!-- footer -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+<style>
+  body {
+    background-image: url('pics/bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Spectral', serif
+  }
+
+  /* GALLERY SECTION */
+
+  .swiper {
+
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 200px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #011801);
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+</style>
+
+<body>
+  <!-- navbars -->
+
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand"> <i class="text-monospace"> <strong>HarsH</strong> </i></a>
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav">
+          <a href="#" class="nav-item nav-link active">About</a>
+          <a href="#" class="nav-item nav-link">Intersests & Hobbies</a>
+          <a href="#" class="nav-item nav-link">Gallery</a>
+          <a href="#" class="nav-item nav-link disabled" tabindex="-1">Projects</a>
+        </div>
+        <!-- <div class="navbar-nav ms-auto">
+                    <a href="#" class="nav-item nav-link">Login</a>
+                </div> -->
+      </div>
+    </div>
+  </nav>
+  <br><br>
+  <div class="myInfo">
+    <h2>Hi There!</h2>
+    <h1>I'm Harshvardhan</h1>
+  </div>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="#" id="about">Linkdin</a>
+    <a href="#" id="blog">Twitter</a>
+    <!-- <a href="#" id="projects">Projects</a>
+        <a href="#" id="contact">Contact</a> -->
+  </div>
+
+
+
+  <div id="RightSidenav">
+
+    <a href="#" id="projects">Insta</a>
+    <a href="#" id="contact">FB</a>
+  </div>
+  <br><br><br>
+
+  <!-- .....END OF NAV..... -->
+
+
+
+  <hr class="dotted">
+
+  <!-- ABOUT ME SECTION -->
+  <div class="container">
+    <div class="card">
+      <div class="content">
+        <h2>Harshvardhan</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam rem eius nostrum nihil! Quisquam saepe porro
+          eius dicta vitae, voluptas sequi modi eos ab.</p>
+        <a href="#">Know More</a>
+      </div>
+      <img src="/pics/harsh.jpg" alt="">
+    </div>
+  </div>
+
+  <!-- </div> -->
+
+  <div class="container">
+    <div class="card">
+      <div class="content">
+        <h2>Intersests and hobbies</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nam optio voluptatum.</p>
+
+      </div>
+      <!-- <video src="/pics/video.mp4" controls> </video> -->
+      <img style="width: 250px;" src="/pics/hobby.jpg" alt="">
+    </div>
+  </div>
+  <!-- GALLARY SECTION -->
+
+  <div class="myInfo">
+    <h2>Gallery</h2>
+  </div>
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="/pics/pic1.jpeg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="/pics/pic2.jpeg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="/pics/pic2.jpeg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="/pics/pic4.jpeg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="/pics/pic4.jpeg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="/pics/pic7.jpeg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="/pics/pic7.jpeg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="/pics/pic1.jpeg" />
+      </div>
+      <!-- <div class="swiper-slide">
+        <img src="/pics/pic1.jpeg" />
+      </div> -->
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 20,
+        stretch: 0,
+        depth: 200,
+        modifier: 1,
+        slideShadows: true,
+      },
+      //   pagination: {
+      //     el: ".swiper-pagination",
+      //   },
+      loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+    });
+  </script>
+
+
+
+  <!-- Projects Section -->
+  <div class="container">
+    <div class="card">
+      <div class="content">
+        <h2>PROJECTS</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nam optio voluptatum.</p>
+
+      </div>
+
+      <img src="/pics/projects.jpg" alt="">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- FOOTER SECTION -->
+
+
+
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-facebook"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-twitter"></i></a>
+
+        <!-- Google -->
+        <!-- <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="bi bi-google"></i
+      ></a> -->
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-instagram"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-linkedin"></i></a>
+
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-github"></i></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright:
+      <a class="text-white" href="index.html"> HarsH </a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>
